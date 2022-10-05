@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Google Keyboard Nav",
+  "version": "1.0",
+  "description": "Lets you open the first 9 google links with the 1-9 keys on your keyboard",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/search*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}
