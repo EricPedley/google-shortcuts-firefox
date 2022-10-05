@@ -1,0 +1,1 @@
+This is a firefox extension that lets you open the first 9 links in the google search results with keys 1-9 on your keyboard.
