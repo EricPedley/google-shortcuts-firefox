@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Google Keyboard Nav",
+  "author": "Eric Pedley",
   "version": "1.0",
   "description": "Lets you open the first 9 google links with the 1-9 keys on your keyboard",
   "background": {
@@ -21,5 +22,11 @@
   ],
   "permissions": [
     "tabs"
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "googlenav@epedley.fakesite",
+      "strict_min_version": "42.0"
+    }
+  }  
 }
